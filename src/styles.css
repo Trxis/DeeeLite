@@ -1,0 +1,134 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("assets/groovy_background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: #ff5733;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#animate-button {
+    background: #ff9800;
+    border: 3px solid #e91e63;
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#animate-button img {
+    width: 60px;
+    height: 60px;
+}
+
+#animate-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+main {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#animated-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4caf50;
+    opacity: 0;
+    margin-bottom: 1rem;
+}
+
+#animated-box {
+    width: 100px;
+    height: 100px;
+    margin: 3rem auto;
+    opacity: 0;
+    position: relative;
+}
+
+audio {
+    opacity: 0;
+}
+
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.head2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.head5 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    scale: 0.5;
+}
+
